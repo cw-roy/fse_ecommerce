@@ -5,17 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Home</title>
+    <title>Coffee!</title>
     <meta name="description" content="Full Stack Engineer session 1 Capstone">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
+    <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
   
 </head>
 <body>
-    <div class="topnav">
+
+    <div id="skip-link">
+        <a href="#main-content" class="visually-hidden focusable">Skip to main content</a>
+    </div>
+
+    <div class="topnav" role="navigation">
         <a class="active" href="index.html">Home</a>
         <a href="products.html">Product Details</a>
         <a href="contact.html">Contact</a>
@@ -23,58 +29,76 @@
         <a href="login.html">Login</a>
     </div>
 
-    <div class="container">
+    <main role="main" id="main-content">
+    <div class="container" role="region" aria-labelledby="main-content">
         <h1>I love coffee.</h1>
         <p>There's really nothing better with which to start your day, keep your day rolling, or end your day than a lovely cup of this nectar of the gods.</p>  
-    
-    <div class="row">
-        <div class="card">
-            <img src="images/cuppa_joe.png" alt="plain coffee">
-            <div>
-                <h4><b>Just a cuppa</b></h4>
-                <p>Plain light roast</p>
-            </div>
-        </div>
-        
-        <div class="card">
-            <img src="images/diner.png" alt="Dark-medium coffee">
-            <div>
-                <h4><b>The Diner</b></h4>
-                <p>Dark-medium roast</p>
-            </div>
-        </div>
-        
-        <div class="card">
-            <img src="images/donut_shop.png" alt="Bold coffee">
-            <div>
-                <h4><b>Donut Shop</b></h4>
-                <p>Bold roast, hint of cinnamon</p>
-            </div>
-        </div>
 
-        <div class="card">
-            <img src="images/espresso.png" alt="espresso">
-            <div>
-                <h4><b>Espresso</b></h4>
-                <p>Dark Italian roast</p>
+
+        <div class="row">
+            <div class="card">
+                <img src="images/cuppa_joe.png" alt="plain coffee">
+                <div>
+                    <h2><b>Just a cuppa</b></h2>
+                    <p>Plain light roast</p>
+                    <a href="products.html"><button>View Details</button></a>
+                </div>
             </div>
-        </div>
-        
-        <div class="card">
-            <img src="images/latte.png" alt="latte">
-            <div>
-                <h4><b>Cafe Latte</b></h4>
-                <p>Dark Italian roast w/steamed milk</p>
+            
+            <div class="card">
+                <img src="images/diner.png" alt="Dark-medium coffee">
+                <div>
+                    <h2><b>The Diner</b></h2>
+                    <p>Dark-medium roast</p>
+                    <a href="products.html"><button>View Details</button></a>
+                </div>
             </div>
-        </div>
-        
-        <div class="card">
-            <img src="images/very_black.png" alt="Extra dark coffee">
-            <div>
-                <h4><b>Very Black</b></h4>
-                <p>Our darkest roast</p>
+            
+            <div class="card">
+                <img src="images/donut_shop.png" alt="Bold coffee">
+                <div>
+                    <h2><b>Donut Shop</b></h2>
+                    <p>Bold roast, hint of cinnamon</p>
+                    <a href="products.html"><button>View Details</button></a>
+                </div>
             </div>
-        </div>
+
+            <div class="card">
+                <img src="images/espresso.png" alt="espresso">
+                <div>
+                    <h2><b>Espresso</b></h2>
+                    <p>Dark Italian roast</p>
+                    <a href="products.html"><button>View Details</button></a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="images/latte.png" alt="latte">
+                <div>
+                    <h2><b>Cafe Latte</b></h2>
+                    <p>Dark Italian roast w/steamed milk</p>
+                    <a href="products.html"><button>View Details</button></a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="images/very_black.png" alt="Extra dark coffee">
+                <div>
+                    <h2><b>Very Black</b></h2>
+                    <p>Our darkest roast</p>
+                    <a href="products.html"><button>View Details</button></a>
+                </div>
+            </div>
     </div>
+
+        <hr>
+
+    <div class="social-links">
+        <a href="#" target="_blank"><img src="images/github.png" alt="GitHub"></a>
+        <a href="#" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="#" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+        <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+    </div>
+     
 </body>
 </html>
