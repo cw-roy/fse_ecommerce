@@ -1,5 +1,6 @@
 ### Any custom items here ###
 .DS_Store
+*.zip
 
 
 ### Node ###
